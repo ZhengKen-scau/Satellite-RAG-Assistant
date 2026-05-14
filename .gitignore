@@ -1,0 +1,55 @@
+# Satellite RAG Assistant - Git忽略文件
+# 忽略不需要提交到版本控制的文件和目录
+
+# 环境变量文件
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志和数据库
+*.log
+storage/chroma_db/
+storage/cache/
+
+# 数据文件
+data/raw/
+data/processed/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 其他
+.DS_Store
+Thumbs.db
